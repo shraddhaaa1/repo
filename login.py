@@ -16,3 +16,6 @@ class login_fb():
         self.driver.find_element(By.ID, self.pas_text_id).send_keys(input)
     def login_butt(self):
         self.driver.find_element(By.XPATH, self.but_xp).click()
+
+
+        #hellow hi
